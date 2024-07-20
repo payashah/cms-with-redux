@@ -1,0 +1,98 @@
+.header-ctrl {
+    display: flex;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+    background-color: var(--white-100);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-infos {
+    display: flex;
+    align-items: center;
+}
+
+.header-infos-img {
+    width: 4rem;
+    border-radius: 100%;
+    border: 3px solid var(--teal);
+    margin-left: 1rem;
+}
+
+.header-infos-nameJob {}
+
+.header-infos-nameJob-name {
+    font-size: 18px;
+    margin-bottom: .5rem;
+}
+
+.header-infos-nameJob-job {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.header-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btns-notife {
+    position: relative;
+    cursor: pointer;
+}
+
+.header-btns-notife-icon {
+    font-size: 22px;
+    display: block;
+
+}
+
+.header-btns-notife-icon-span {
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white-100);
+    top: -.2rem;
+    right: -.2rem;
+    min-width: .9rem;
+    max-width: 5rem;
+    height: .9rem;
+    font-size: 12px;
+    border-radius: 100%;
+    padding: .05rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btns-light-icon {
+    scale: 1.3;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+.header-btns-exit {
+    font-size: 20px;
+    padding: .5rem 1.3rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    background-color: var(--teal);
+    color: var(--white-100);
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.header-btns-exit:hover {
+    background-color: var(--teal-dark);
+}

@@ -1,0 +1,77 @@
+.usersBox {
+    border-radius: .5rem;
+    background-color: var(--bg);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .7rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+
+}
+
+.usersBox-infos {
+    display: flex;
+    align-items: center;
+}
+
+.usersBox-infos-img {
+    max-width: 4rem;
+    border-radius: 100%;
+    border: 2px solid var(--teal);
+    margin-left: 1rem;
+}
+
+.usersBox-infos-nameEmail {}
+
+.usersBox-infos-nameEmail-name {
+    margin-bottom: .5rem;
+}
+
+.usersBox-infos-nameEmail-email {}
+
+.usersBox-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usersBox-btnBox-btn {
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    width: 7rem;
+    padding: .5rem;
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+.usersBox-btnBox-btn.note {
+    background-color: var(--teal);
+    color: var(--white-100);
+}
+
+.usersBox-btnBox-btn.note:hover {
+    background-color: var(--teal-dark);
+    cursor: pointer;
+}
+
+.usersBox-btnBox-btn.info {
+    background-color: var(--blue);
+    color: var(--white-100);
+}
+
+.usersBox-btnBox-btn.info:hover {
+    background-color: var(--blue-dark);
+    cursor: pointer;
+}
+
+.usersBox-btnBox-btn.delete {
+    background-color: var(--red);
+    color: var(--white-100);
+}
+
+.usersBox-btnBox-btn.delete:hover {
+    background-color: var(--red-dark);
+    cursor: pointer;
+}

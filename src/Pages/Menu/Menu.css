@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    padding-bottom: .7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--gray);
+
+}
+
+.menu-box:hover {
+    color: var(--red-dark);
+    border-bottom: 2px solid var(--red-dark);
+}
+
+.menu-box-icon {
+    font-size: 22px;
+    margin-left: .5rem;
+}
+
+.menu-box-title {}

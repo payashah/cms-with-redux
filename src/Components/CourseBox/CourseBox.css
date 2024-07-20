@@ -1,0 +1,133 @@
+.courseBox {
+    margin-top: 1.5rem;
+    display: flex;
+    background-color: var(--bg);
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+    position: relative;
+
+}
+
+.off {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    background-color: var(--red);
+    color: var(--white-100);
+    padding: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    top: -.5rem;
+    right: -.5rem;
+    height: 1rem;
+
+}
+
+.courseBox-img {
+    max-width: 15rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+}
+
+.courseBox-details {}
+
+.courseBox-details-des {
+    height: 70%;
+    padding-top: .5rem;
+}
+
+.courseBox-details-des-title {
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.courseBox-details-des-text {}
+
+.courseBox-details-infos-ctrl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courseBox-details-infos {
+    display: flex;
+
+}
+
+.courseBox-details-infos-priceBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.courseBox-details-infos-priceBox-price {
+    margin-right: .5rem;
+    color: var(--red-dark);
+}
+
+.courseBox-details-infos-categoryBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: var(--blue-dark);
+    font-weight: bold;
+
+}
+
+.courseBox-details-infos-categoryBox-category {
+    margin-right: .5rem;
+
+}
+
+.courseBox-details-infos-countBox {
+    display: flex;
+    align-items: center;
+    color: var(--teal-dark);
+    font-weight: bold;
+
+}
+
+.courseBox-details-infos-countBox-count {
+    margin-right: .5rem;
+
+}
+
+.courseBox-details-btnBox {}
+
+.courseBox-details-btnBox-edit {
+    width: 4rem;
+    font-size: 15px;
+    color: var(--white-100);
+    background-color: var(--teal);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: .3rem .6rem;
+}
+
+.courseBox-details-btnBox-edit:hover {
+    cursor: pointer;
+    background-color: var(--teal-dark);
+}
+
+.courseBox-details-btnBox-delete {
+    width: 4rem;
+    font-size: 15px;
+    color: var(--white-100);
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: .3rem .6rem;
+    margin-right: .5rem;
+}
+
+.courseBox-details-btnBox-delete:hover {
+    cursor: pointer;
+    background-color: var(--red-dark);
+}

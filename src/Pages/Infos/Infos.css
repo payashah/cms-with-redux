@@ -1,0 +1,109 @@
+.infos-ctrl {
+    margin-top: 1.5rem;
+}
+
+.infos {}
+
+.infos-title {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.infos-inputBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--gray);
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+.infos-inputBox-input {
+    font-size: 18px;
+    width: 27rem;
+    padding: .3rem .6rem;
+    margin: .5rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.infos-title-pics {
+    margin-top: 1.5rem;
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.picBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.picBox-profile {
+    display: flex;
+    align-items: end;
+    margin-left: 10rem;
+}
+
+.picBox-profile-pic {
+    max-width: 12rem;
+    margin-left: 2rem;
+}
+
+.picBox-banner {
+    display: flex;
+    align-items: end;
+}
+
+.picBox-banner-pic {
+    max-width: 12rem;
+    margin-left: 2rem;
+
+
+}
+
+.pic-update {
+    width: 5rem;
+    border: none;
+    outline: none;
+    background-color: var(--teal);
+    color: var(--white-100);
+    font-size: 15px;
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+
+}
+
+.pic-update:hover {
+    cursor: pointer;
+    background-color: var(--teal-dark);
+}
+
+.infos-btnBox {
+    display: flex;
+    justify-content: end;
+}
+
+.infos-btn {
+    margin-top: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: var(--teal);
+    color: var(--white-100);
+    width: 12rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.infos-btn:hover {
+    cursor: pointer;
+    background-color: var(--teal-dark);
+}

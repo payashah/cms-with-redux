@@ -1,0 +1,114 @@
+.articleBox {
+    margin-top: 1.5rem;
+    display: flex;
+    background-color: var(--bg);
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+}
+
+.articleBox-img {
+    max-width: 15rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+}
+
+.articleBox-details {}
+
+.articleBox-details-des {
+    height: 70%;
+    padding: .5rem 0;
+}
+
+.articleBox-details-des-title {
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+.articleBox-details-des-text {}
+
+.articleBox-details-infos-ctrl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articleBox-details-infos {
+    display: flex;
+
+}
+
+.articleBox-details-infos-priceBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.articleBox-details-infos-priceBox-price {
+    margin-right: .5rem;
+    color: var(--red-dark);
+}
+
+.articleBox-details-infos-categoryBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    color: var(--blue-dark);
+    font-weight: bold;
+
+}
+
+.articleBox-details-infos-categoryBox-category {
+    margin-right: .5rem;
+
+}
+
+.articleBox-details-infos-countBox {
+    display: flex;
+    align-items: center;
+    color: var(--teal-dark);
+    font-weight: bold;
+
+}
+
+.articleBox-details-infos-countBox-count {
+    margin-right: .5rem;
+
+}
+
+.articleBox-details-btnBox {}
+
+.articleBox-details-btnBox-edit {
+    width: 4rem;
+    font-size: 15px;
+    color: var(--white-100);
+    background-color: var(--teal);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: .3rem .6rem;
+}
+
+.articleBox-details-btnBox-edit:hover {
+    cursor: pointer;
+    background-color: var(--teal-dark);
+}
+
+.articleBox-details-btnBox-delete {
+    width: 4rem;
+    font-size: 15px;
+    color: var(--white-100);
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding: .3rem .6rem;
+    margin-right: .5rem;
+}
+
+.articleBox-details-btnBox-delete:hover {
+    cursor: pointer;
+    background-color: var(--red-dark);
+}

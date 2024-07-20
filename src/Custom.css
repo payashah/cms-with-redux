@@ -1,0 +1,19 @@
+@import "./Reset.css";
+
+:root {
+    --white-50: #ececec;
+    --white-100: #ffffff;
+    --teal: #008080;
+    --teal-dark: #006161;
+    --red: #ff0000;
+    --red-dark: #be0000;
+    --gray: #a7a7a7;
+    --bg: #f2f2f2;
+    --blue: #0224e6;
+    --blue-dark: #001bb5;
+}
+
+body {
+    background-color: var(--white-50);
+    font-family: 'Times New Roman', Times, serif;
+}
